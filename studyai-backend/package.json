@@ -1,0 +1,22 @@
+{
+  "name": "studyai-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.10.0",
+    "groq-sdk": "^1.2.1",
+    "openai": "^6.38.0"
+  }
+}
